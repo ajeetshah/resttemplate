@@ -2,14 +2,11 @@ package com.example.resttemplate.config;
 
 import io.micrometer.common.KeyValue;
 import io.micrometer.common.KeyValues;
-import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.observation.ClientHttpObservationDocumentation;
 import org.springframework.http.client.observation.ClientRequestObservationContext;
 import org.springframework.http.client.observation.ClientRequestObservationConvention;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
-import org.springframework.util.MultiValueMap;
-import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.Objects;
 
